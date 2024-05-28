@@ -8,9 +8,15 @@
 @import url(./utilidades/componentes.css);
 @import url(./global/header.css);
 
-/* home */
+/* Home */
 
 @import url(./home/introducao.css);
+
+/* Bicicletas-lista */
+
+@import url(./bicicletas/bicicletas-lista.css);
+
+
 
 
 

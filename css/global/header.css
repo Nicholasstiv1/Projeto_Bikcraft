@@ -2,16 +2,14 @@
     background-color: var(--cor-12);
 }
 
-.header-container {
+.header {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 20px;
-    margin: 0 auto;
     justify-content: space-between;
-    box-sizing: border-box;
     align-items: center;
-    max-width: 1200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 
 }
 
