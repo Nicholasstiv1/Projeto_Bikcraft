@@ -15,13 +15,15 @@
 @import url(./home/tecnologia.css);
 @import url(./home/parceiros.css);
 @import url(./home/depoimento.css);
-@import url(./home/seguro.css);
+@import url(./seguros/seguro.css);
 
 /* Bicicletas-lista */
 
 @import url(./bicicletas/bicicletas-lista.css);
 
+/* Termos */
 
+@import url(./termos/termos.css);
 
 
 
