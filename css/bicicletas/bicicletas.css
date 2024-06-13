@@ -1,0 +1,89 @@
+.bicicletas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bicicletas-conteudo {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-content: start;
+}
+
+.bicicletas-imagem {
+    display: grid;
+}
+
+.bicicletas-imagem img {
+    grid-area: 1/1;
+}
+
+.bicicletas-imagem span {
+    grid-area: 1/1;
+    background: var(--cor-12);
+    display: inline-block;
+    padding: 8px 16px 8px 8px;
+    border-radius: 4px 0 0 4px;
+    place-self: start end;
+    margin-top: 20px;
+}
+
+.bicicletas h2{
+    grid-column: 1/-1;
+    margin-bottom: 20px;
+}
+
+.bicicletas h2::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 8px;
+    background: var(--cor-p1);
+    margin-bottom: 8px;
+
+}
+
+.bicicletas p{
+    grid-column: 1/-1;
+    margin-bottom: 32px;
+}
+
+.bicicletas a{
+    place-self: end;
+}
+
+.bicicletas ul{
+    display: grid;
+    gap: 16px;
+}
+
+.bicicletas li{
+    display: flex;
+    align-items: center;
+}
+
+.bicicletas-conteudo img{
+    width: 24px;
+    margin-right: 8px;
+}
+
+.bicicletas-bg {
+    background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
+}
+
+.botao.seta {
+    display: flex;
+    align-items: center;
+}
+
+.botao.seta::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    background: url(../../img/icones/seta.svg);
+    margin-left: 12px;
+    transition: 0.2s;
+}
